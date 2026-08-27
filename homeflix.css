@@ -1,6 +1,6 @@
 /* Replace Logo with homeflix logo */
 :root {
-    --logo: url("https://raw.githubusercontent.com/kingajohanna/jellyfin-logo/8cbd91af1101eceff6b45bf455bb615445729139/homeflix.png");
+    --logo: url("https://raw.githubusercontent.com/kingajohanna/jellyfin-logo/refs/heads/main/homeflix.png");
 }
 
 .pageTitleWithDefaultLogo {
