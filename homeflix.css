@@ -1,6 +1,6 @@
-/* Replace Logo with streamberry logo, this should be the last line in CSS */
+/* Replace Logo with homeflix logo */
 :root {
-    --logo: url("https://github.com/kingajohanna/jellyfin-logo/blob/8cbd91af1101eceff6b45bf455bb615445729139/homeflix.png");
+    --logo: url("https://raw.githubusercontent.com/kingajohanna/jellyfin-logo/8cbd91af1101eceff6b45bf455bb615445729139/homeflix.png");
 }
 
 .pageTitleWithDefaultLogo {
