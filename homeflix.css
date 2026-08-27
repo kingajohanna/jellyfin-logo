@@ -3,18 +3,23 @@
     --logo: url("https://raw.githubusercontent.com/kingajohanna/jellyfin-logo/refs/heads/main/homeflix.png");
 }
 
+/* Main Top-Left Header Logo */
 .pageTitleWithDefaultLogo {
-    background-size: 100% !important;
+    background-image: var(--logo) !important;
+    background-size: contain !important;
 }
 
 .layout-mobile .pageTitleWithDefaultLogo {
     width: 130px !important;
 }
 
+/* Login Page Logos */
 #loginPage .visualLoginForm:not(.hide) h1::before {
-  background-size: 50% !important;
+    background-image: var(--logo) !important;
+    background-size: 50% !important;
 }
 
 #loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
-  background-size: 100% !important;
+    background-image: var(--logo) !important;
+    background-size: 100% !important;
 }
